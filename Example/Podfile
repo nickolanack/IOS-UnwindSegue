@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+
+target 'UnwindSegue_Tests', :exclusive => true do
+  pod "UnwindSegue", :path => "../"
+
+  
+end
