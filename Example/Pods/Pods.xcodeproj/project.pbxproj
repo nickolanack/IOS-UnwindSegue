@@ -8,7 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		08A4B8C3F9561F595A84D318A636A703 /* Pods-UnwindSegue_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF57709E643D0CA2763E5C5198C1DD56 /* Pods-UnwindSegue_Tests-dummy.m */; };
-		66BBAF2E4C40694A7EDA0D0C8CC44F79 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 77BE6CB5B4A763686FBCDA0FF141CBDA /* ReplaceMe.m */; };
+		90CADB381C15FBA4007FA2E4 /* DismissView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CADB361C15FBA4007FA2E4 /* DismissView.h */; };
+		90CADB391C15FBA4007FA2E4 /* DismissView.h in Headers */ = {isa = PBXBuildFile; fileRef = 90CADB361C15FBA4007FA2E4 /* DismissView.h */; };
+		90CADB3A1C15FBA4007FA2E4 /* DismissView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CADB371C15FBA4007FA2E4 /* DismissView.m */; };
+		90CADB3B1C15FBA4007FA2E4 /* DismissView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90CADB371C15FBA4007FA2E4 /* DismissView.m */; };
 		BA0D1FC0F42F16F924DDDA12F8E10CC7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		BE9D1F52E55C09D53524347C0E229637 /* UnwindSegue-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C22F13E9142E32C092C83B8D3DC562E /* UnwindSegue-dummy.m */; };
 		CA4CD4A98C2EDA63D53E6166C71B4F73 /* UnwindSegue.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7CF4DCE6E0FE131139271E24CAD7847 /* UnwindSegue.bundle */; };
@@ -40,10 +43,11 @@
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5DBCA61A6CD549054D82E82D333502A7 /* Pods-UnwindSegue_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UnwindSegue_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6034D9E55FDC962D0831713AF9038BE2 /* UnwindSegue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UnwindSegue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77BE6CB5B4A763686FBCDA0FF141CBDA /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
 		7C22F13E9142E32C092C83B8D3DC562E /* UnwindSegue-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UnwindSegue-dummy.m"; sourceTree = "<group>"; };
 		85D7D71A14C11E2861A1CC121F98468F /* Pods-UnwindSegue_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnwindSegue_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		902D58F4DFCD4DC764F6C24066CDFBA9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90CADB361C15FBA4007FA2E4 /* DismissView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DismissView.h; sourceTree = "<group>"; };
+		90CADB371C15FBA4007FA2E4 /* DismissView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DismissView.m; sourceTree = "<group>"; };
 		972C3FAEF224EFC9CB479A799B36F8B5 /* Pods-UnwindSegue_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UnwindSegue_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A125D5B0BB7F313BCD8A06F920EFE65D /* Pods_UnwindSegue_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnwindSegue_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A80613FE3CAAEF8DED4F64AB7A640396 /* UnwindSegue.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UnwindSegue.xcconfig; sourceTree = "<group>"; };
@@ -176,7 +180,8 @@
 		BE066CA7C5E82159381D1BF3151A8C9C /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				77BE6CB5B4A763686FBCDA0FF141CBDA /* ReplaceMe.m */,
+				90CADB361C15FBA4007FA2E4 /* DismissView.h */,
+				90CADB371C15FBA4007FA2E4 /* DismissView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -204,6 +209,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CADB391C15FBA4007FA2E4 /* DismissView.h in Headers */,
 				EC51829553159D31A336CFDAC1557338 /* UnwindSegue-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -212,6 +218,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90CADB381C15FBA4007FA2E4 /* DismissView.h in Headers */,
 				F5A485E8023F0704F0BB8C38D89C8938 /* Pods-UnwindSegue_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -324,7 +331,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				66BBAF2E4C40694A7EDA0D0C8CC44F79 /* ReplaceMe.m in Sources */,
+				90CADB3B1C15FBA4007FA2E4 /* DismissView.m in Sources */,
 				BE9D1F52E55C09D53524347C0E229637 /* UnwindSegue-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -334,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08A4B8C3F9561F595A84D318A636A703 /* Pods-UnwindSegue_Tests-dummy.m in Sources */,
+				90CADB3A1C15FBA4007FA2E4 /* DismissView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

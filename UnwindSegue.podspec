@@ -20,7 +20,7 @@ Pod::Spec.new do |s|
 This is a simple unwind custom segue - mostly as a self tutorial for using cocoapods
                        DESC
 
-  s.homepage         = "https://github.com/nickolanack/UnwindSegue"
+  s.homepage         = "https://github.com/nickolanack/IOS-UnwindSegue"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "nickolanack" => "nickblackwell82@gmail.com" }
