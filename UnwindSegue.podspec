@@ -27,7 +27,7 @@ A custom IOS Unwind segue - mostly a self tutorial for using cocoapods
   s.source           = { :git => "https://github.com/nickolanack/UnwindSegue.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  # s.platform     = :ios, '9.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
