@@ -11,8 +11,14 @@
 @implementation UnwindSegue
 
 - (void)perform {
+    
     UIViewController *sourceViewController = self.sourceViewController;
-    [sourceViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    UINavigationController *navigationController=sourceViewController.navigationController;
+    if(navigationController){
+        [sourceViewController.navigationController popViewControllerAnimated:true];
+    }else{
+        [sourceViewController.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+    }
 }
 
 
