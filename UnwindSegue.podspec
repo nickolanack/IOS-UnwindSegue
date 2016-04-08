@@ -20,14 +20,14 @@ Pod::Spec.new do |s|
 A custom IOS Unwind segue - mostly a self tutorial for using cocoapods
                        DESC
 
-  s.homepage         = "https://github.com/nickolanack/UnwindSegue"
+  s.homepage         = "https://github.com/nickolanack/IOS-UnwindSegue"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "nickolanack" => "nickblackwell82@gmail.com" }
-  s.source           = { :git => "https://github.com/nickolanack/UnwindSegue.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/nickolanack/IOS-UnwindSegue.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  # s.platform     = :ios, '9.1'
+  s.platform     = :ios, '9.1'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'

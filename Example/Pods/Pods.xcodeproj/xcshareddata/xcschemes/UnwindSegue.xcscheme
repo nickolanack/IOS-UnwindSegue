@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F8764EBB031941243ADCD4E2'
+               BlueprintIdentifier = 'EC1732929B7917E204708A57'
                BlueprintName = 'UnwindSegue'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'UnwindSegue.framework'>
