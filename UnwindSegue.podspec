@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "UnwindSegue"
-  s.version          = "0.1.0"
+  s.version          = "0.1.1"
   s.summary          = "A simple IOS Unwind Segue"
 
 # This description is used to generate tags and improve search results.
@@ -27,7 +27,7 @@ A custom IOS Unwind segue - mostly a self tutorial for using cocoapods
   s.source           = { :git => "https://github.com/nickolanack/IOS-UnwindSegue.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '9.1'
+  s.platform     = :ios, '9.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
