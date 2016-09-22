@@ -1,5 +1,5 @@
 PODS:
-  - UnwindSegue (0.1.0)
+  - UnwindSegue (0.1.1)
 
 DEPENDENCIES:
   - UnwindSegue (from `../`)
@@ -9,6 +9,8 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  UnwindSegue: 98c5b589a96c312ed431053023a4bfea5568ce79
+  UnwindSegue: 1b34dc4ea9afa41b0b439e824a6f069af875c326
 
-COCOAPODS: 0.39.0
+PODFILE CHECKSUM: a777df875ac2425210e8a5e26515965a1bdfd727
+
+COCOAPODS: 1.1.0.rc.2

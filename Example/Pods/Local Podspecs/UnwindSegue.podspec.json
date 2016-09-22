@@ -1,16 +1,19 @@
 {
   "name": "UnwindSegue",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "summary": "A simple IOS Unwind Segue",
   "description": "A custom IOS Unwind segue - mostly a self tutorial for using cocoapods",
-  "homepage": "https://github.com/nickolanack/UnwindSegue",
+  "homepage": "https://github.com/nickolanack/IOS-UnwindSegue",
   "license": "MIT",
   "authors": {
     "nickolanack": "nickblackwell82@gmail.com"
   },
   "source": {
-    "git": "https://github.com/nickolanack/UnwindSegue.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/nickolanack/IOS-UnwindSegue.git",
+    "tag": "0.1.1"
+  },
+  "platforms": {
+    "ios": "7.0"
   },
   "requires_arc": true,
   "source_files": "Pod/Classes/**/*",

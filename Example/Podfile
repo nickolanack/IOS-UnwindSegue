@@ -1,8 +1,9 @@
 source 'https://github.com/CocoaPods/Specs.git'
+project 'UnwindSegue'
 use_frameworks!
 
 
-target 'UnwindSegue_Tests', :exclusive => true do
+target 'UnwindSegue_Tests' do
   pod "UnwindSegue", :path => "../"
 
   
